@@ -1,5 +1,5 @@
-import 'package:expense_tracker/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:expense_tracker/login/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Expense Tracker',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(useMaterial3: true),
-      home: const HomeScreen(),
+      theme: ThemeData.light(useMaterial3: true),
+      home: const LoginPage(),
     );
   }
 }
